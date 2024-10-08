@@ -1,0 +1,20 @@
+{
+  "name": "mern-quiz-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.21.0",
+    "mongoose": "^5.12.2",
+    "nanoid": "^5.0.7",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
