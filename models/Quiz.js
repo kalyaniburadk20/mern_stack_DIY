@@ -6,7 +6,7 @@ const quizSchema = new mongoose.Schema({
     {
       question: String,
       options: [String],
-      correctAnswer: Number, // index of the correct option
+      correctAnswer: Number, 
     },
   ],
 });

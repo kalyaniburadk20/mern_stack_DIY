@@ -1,6 +1,6 @@
 const Quiz = require('../models/Quiz');
 
-// Create a new quiz
+
 const createQuiz = async (req, res) => {
   const { title, questions } = req.body;
   try {
@@ -12,7 +12,6 @@ const createQuiz = async (req, res) => {
   }
 };
 
-// Get a quiz by ID
 const getQuizById = async (req, res) => {
   try {
     const quiz = await Quiz.findById(req.params.id);
